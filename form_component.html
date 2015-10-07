@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Dashboard">
+    <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
+
+    <title>Adventure time: Dashboard</title>
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet" />
+    <link href="css/adventure-time-theme.css" rel="stylesheet">
+    <link href="css/adventure-time-theme-responsive.css" rel="stylesheet">
+
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    
+  </head>
+
+  <body>
+
+   <header class="black-bg header">
+      <div class="sidebar-toggle-box">
+        <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
+      </div>
+      <a href="dashboard.html" class="logo visible-lg"><strong>ADVENTURES TIME: DASHBOARD</strong></a>
+      <a href="dashboard.html" class="logo visible-xs"><strong>ADV.TIME</strong></a>
+      <div class="top-menu">
+        <ul class="nav pull-right top-menu">
+          <li><a href="login.html" class="logout">Logout</a></li>
+        </ul>
+      </div>
+  </header>
+     <aside>
+       <div id="sidebar" class="nav-collapse ">
+         <ul class="sidebar-menu">
+           <p class="text-center">
+             <a href="dashboard.html">
+               <img src="img/profile_avatar.png" class="img-circle" width="60">
+             </a>
+           </p>
+           <h5 class="text-center">Bonnibel Bubblegum</h5>
+           <li class="sub-menu">
+             <a href="dashboard.html"> <i class="fa fa-dashboard"></i>Tablero</a>
+           </li>
+           <li class="sub-menu">
+             <a href="buttons.html"><i class="fa fa-desktop"></i>Botones</a>
+           </li>
+           <li class="sub-menu">
+             <a href="progress.html"><i class="fa fa-desktop"></i>Barras de Progreso</a>
+           </li>            
+           <li class="sub-menu">
+             <a href="form_component.html" class="active"><i class="fa fa-cogs"></i>Formas</a>
+           </li>
+           <li class="sub-menu"><a href="basic_tables.html"><i class="fa fa-th"></i>Tablas de datos</a>
+           </li>            
+           <li class="sub-menu">
+             <a href="gallery.html"><i class="fa fa-tasks"></i>Galería</a>
+           </li>
+           <li class="sub-menu">
+             <a href="login.html"><i class="fa fa-book"></i>Página de inicio de sesión</a>
+           </li> 
+         </ul>
+       </div>
+    </aside>
+    <div id="main-content">
+      <div class="wrapper">
+        <h3> >Form Components</h3>
+        <div class="form-panel">
+          <h3>>Form Elements</h3>
+            <form class="form-horizontal" role="form">
+              <div class="form-group">
+                <label class="control-label col-sm-2">Default</label>
+                <div class="col-sm-10">
+                  <input class="form-control" placeholder="">
+                </div>
+              </div>
+              <div class="page-header"></div>
+              <div class="form-group">
+                <label class="control-label col-sm-2">Help Text</label>
+                <div class="col-sm-10">
+                  <input class="form-control" placeholder="">
+                  <p>A block of help text that breaks onto a new line and may extend beyond one line</p>
+                </div>
+              </div>
+              <div class="page-header"></div>
+              <div class="form-group">
+                <label class=" col-sm-2">Rounder</label>
+                <div class="col-sm-10">
+                  <input class="form-control focus-radius" placeholder="">
+                </div>
+              </div>
+              <div class="page-header"></div>
+              <div class="form-group">
+                <label class="control-label col-sm-2">Input focus</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control focus-red">
+                </div>
+              </div>
+              <div class="page-header"></div>
+              <div class="form-group">
+                <label class="control-label col-sm-2">Disabled</label>
+                <div class="col-sm-10">
+                  <input class="form-control" id="campoDeshabilitado" type="text" placeholder="Este campo está deshabilitado..." disabled>
+                </div>
+              </div>
+              <div class="page-header"></div>
+              <div class="form-group">
+                <label class="control-label col-sm-2" >Placeholder</label>
+                <div class="col-sm-10">
+                  <input class="form-control" placeholder="Placeholder">
+                </div>
+              </div>
+              <div class="page-header"></div>
+              <div class="form-group">
+                <label class="control-label col-sm-2">Password</label>
+                <div class="col-sm-10">
+                  <input type="password" class="form-control" placeholder="">
+                </div>
+              </div>
+              <div class="page-header"></div>
+              <div class="form-group">  
+                <label class="control-label col-sm-2">Example</label>
+                <div class="col-sm-10">
+                  <span>example@miau.com</span>
+                </div>
+              </form>
+            </div>            
+        </div>
+        <div class="form-panel">
+          <h3>Inline Form</h3>
+          <form class="form-inline" role="form">
+            <div class="form-group">
+               <input type="email" class="form-control" id="email" placeholder="E-mail">
+            </div>
+            <div class="form-group">
+              <input type="password" class="form-control" id="pwd" placeholder="Password">
+            </div>
+            <button type="submit" class="btn">Submit</button>
+          </form>
+        </div>
+        <div class="form-panel">
+          <h3>Input Messages</h3>
+          <div class="form-horizontal">
+            <div class="form-group">
+              <div class="has-success">
+                <label class="control-label col-sm-2" for="inputSuccess">Campo con un valor válido</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control">
+                </div>
+              </div>
+            </div>
+            <div class="form-group has-warning">
+              <label class="control-label col-sm-2" for="inputSuccess">Campo con un valor válido</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control">
+              </div>
+            </div>
+            <div class="form-group has-error">
+              <label class="control-label col-sm-2" for="inputError">Campo con un error</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="campoError">
+              </div>
+            </div>
+          </div>
+          <div class="divider"></div>
+          <h3>Checkbox</h3>
+            <label class="checkbox-inline"><input type="checkbox" value="">Option 1</label>
+            <label class="checkbox-inline"><input type="checkbox" value="">Option 2</label>
+            <label class="checkbox-inline"><input type="checkbox" value="">Option 3</label>
+          <div class="page-header"></div>
+          <div class="form-group">
+            <label for="sel1">Select list:</label>
+            <select class="form-control" id="sel1">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+            </select>
+          </div>
+        </div>
+          
+        </div>
+        </div>
+      </div>
+      
+    </div>
+
+    <!-- js placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/common-scripts.js"></script>
+  </body>
+</html>
